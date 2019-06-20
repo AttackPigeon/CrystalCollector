@@ -5,39 +5,70 @@ var losses=0;
 var targetNumber= makeNumber(19,120);
 var myNumber=0;
 
+var addNumber= function(clickedOn){
+    myNumber+=clickedOn
+    $('#myNumber').text(myNumber)
+}
+
 function makeNumber(min, max) {
     return Math.floor(Math.random() * (max - min)) + min
 };
 console.log(targetNumber)
 
-$('#targetNumber').append(targetNumber)
 
-$('#blue').attr('data-random', makeNumber(1,12)) 
-$('#green').attr('data-random', makeNumber(1,12))
-$('#red').attr('data-random', makeNumber(1,12))
-$('#yellow').attr('data-random', makeNumber(1,12))
+
+function init() {
+    $('#blue').attr('data-random', makeNumber(1,12)) 
+    $('#green').attr('data-random', makeNumber(1,12))
+    $('#red').attr('data-random', makeNumber(1,12))
+    $('#yellow').attr('data-random', makeNumber(1,12))
+
+    myNumber=0
+    $('#myNumber').text(myNumber)
+
+    targetNumber= makeNumber(19,120)
+    $('#targetNumber').text(targetNumber)
+}
+ 
+init()
 
 function calcWins() {
     if (myNumber===targetNumber) {
-        wins++ 
-        $('#wins').append(wins)
-        alert('You won! Good job! Cookie?')
+        wins++,
+        $('#wins').text(wins)
+        alert('You won! Good job!...Cookie?')
+        init()
     }else if(myNumber>targetNumber) {
-        losses++
-        $("losses").append(losses)
+        losses++,
+        $("#losses").text(losses)
         alert("You lost, no cookies!")
+        init()
     }
-
 }
 
-$('#blue').click(function() {
-
-console.log($(this).data('random'))
-addNumber($(this).data('random'))
+$('#blue').click(function() {  
+    console.log($(this).data('random'))
+    addNumber($(this).data('random'))
+    calcWins()
 });
 
-var addNumber= function(clickedOn){
-    myNumber+=clickedOn
-    $('#myNumber').text(myNumber)
-}
+$('#green').click(function() {
+    console.log($(this).data('random'))
+    addNumber($(this).data('random'))
+    calcWins()
+});
+
+$('#red').click(function() {
+    console.log($(this).data('random'))
+    addNumber($(this).data('random'))
+    calcWins() 
+});
+
+$('#yellow').click(function() {
+    console.log($(this).data('random'))
+    addNumber($(this).data('random'))
+    calcWins()
+});
+
+
 
