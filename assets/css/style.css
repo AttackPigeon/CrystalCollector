@@ -3,9 +3,9 @@
    UTexas PTF Coding 2019 */
 
 body{
-      font-family: 'Vollkorn', serif;
-      background: greenyellow;
-      color: maroon;
+   font-family: 'Liu Jian Mao Cao', cursive;
+   background: rgb(155, 194, 16);
+   color: maroon;
    }
 p {
    font-size: 170%;
@@ -15,7 +15,7 @@ h1 {
 }
 /* Classes */
 .container  {
-   background:magenta;
+   background:rgb(63, 114, 129);
 }
 
 /* ID's */
@@ -29,7 +29,6 @@ h1 {
 
 }
 #blue{
-   background-color: khaki;
 
 }
 #myNumber{
@@ -38,7 +37,11 @@ h1 {
 #crystals{
    
 }
+#magicNumer{
+   font-size: 190%;
+}
 #targetNumber{
+   font-size: 190%;
 
 }
 #wins{

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link type="text/css" href="assets/css/style.css" rel="stylesheet">  
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,18 +24,18 @@
                             <br> BUT don't go over the Magic Number- 
                             <br>or you LOSE! 
                         </p>
-                        <h1> Your Number: <span id= "myNumber"></span> </h1>
+                    <h1 id= "magicNumber">Magic Number: <span id="targetNumber"></span></h1>
                 </div>
-                <div class="text-center" id="crystals">
-                    <img src="assets/images/images (1).jpg" id='blue'>
+                <div class="text-center bg-white" id="crystals">
+                    <img src="assets/images/blue.png" id='blue'>
                     <img src="assets/images/green.png" id='green'>
                     <img src="assets/images/red.png" id='red'>
                     <img src="assets/images/yellow.png" id="yellow">
                 </div>
-                <div class="scores">
-                    <h3>Magic Number: <span id="targetNumber"></span></h3>
-                    <h3> Wins: <span id= "wins"></span></h3>
-                    <h3>Losses:<span id= "losses"></span></h3>
+                <div class="text-center" id="scores">
+                    <h1> Your Number: <span id= "myNumber"></span></h1>
+                    <h3 class="text-left"> Wins: <span id= "wins"></span></h3>
+                    <h3 class= "text-left">Losses:<span id= "losses"></span></h3>
                 </div>
             </div>
         </div>
