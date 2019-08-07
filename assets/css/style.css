@@ -4,7 +4,8 @@
 
 body{
       font-family: 'Vollkorn', serif;
-      background-image: url("assets/images/background.jpg")
+      background: greenyellow;
+      color: maroon;
    }
 p {
    font-size: 170%;
@@ -12,7 +13,11 @@ p {
 h1 {
    font-size: 350%;
 }
-/* Classes *
+/* Classes */
+.container  {
+   background:magenta;
+}
+
 /* ID's */
 #red{
 
@@ -24,6 +29,7 @@ h1 {
 
 }
 #blue{
+   background-color: khaki;
 
 }
 #myNumber{

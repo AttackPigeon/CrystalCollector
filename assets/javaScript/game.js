@@ -40,8 +40,8 @@ function calcWins() {
         init()
     }else if(myNumber>targetNumber) {
         losses++,
-        $("#losses").text(losses)
-        alert("You lost! Try again!")
+        $('#losses').text(losses)
+        alert('You lost! Try again!')
         init()
     }
 }

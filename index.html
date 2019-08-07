@@ -17,28 +17,27 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class= "bolder">Crystal Collector</h1>
-                <p> 
-                     Click on the crystals below until you
-                    <br>Match the "Magic Number" with "Your Number"... 
-                    <br> BUT don't go over the Magic Number- 
-                    <br>or you LOSE! 
-                </p>
-                <h1> Your Number: <span id= "myNumber"></span> </h1>
+                <div>
+                    <h1 class= "bolder">Crystal Collector</h1>
+                        <p> Click on the crystals below until you
+                            <br>Match the "Magic Number" with "Your Number"... 
+                            <br> BUT don't go over the Magic Number- 
+                            <br>or you LOSE! 
+                        </p>
+                        <h1> Your Number: <span id= "myNumber"></span> </h1>
+                </div>
+                <div class="text-center" id="crystals">
+                    <img src="assets/images/images (1).jpg" id='blue'>
+                    <img src="assets/images/green.png" id='green'>
+                    <img src="assets/images/red.png" id='red'>
+                    <img src="assets/images/yellow.png" id="yellow">
+                </div>
+                <div class="scores">
+                    <h3>Magic Number: <span id="targetNumber"></span></h3>
+                    <h3> Wins: <span id= "wins"></span></h3>
+                    <h3>Losses:<span id= "losses"></span></h3>
+                </div>
             </div>
-        </div>
-        <div class="text-center" id="crystals">
-            <img src="assets/images/blue.png" id='blue'>
-            <img src="assets/images/green.png" id='green'>
-            <img src="assets/images/red.png" id='red'>
-            <img src="assets/images/yellow.png" id="yellow">
-        </div>
-        <div class="scores">
-            <h3>Magic Number: <span id="targetNumber"></span></h3>
-            <h3> Wins: <span id= "wins"></span></h3>
-            <h3>Losses:<span id= "losses"></span></h3>
-        </div>
-    </div>
         </div>
     </div>
     <script src="./assets/javaScript/game.js" type="text/javascript" ></script>
