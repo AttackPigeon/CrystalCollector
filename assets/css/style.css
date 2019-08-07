@@ -1,2 +1,15 @@
-/*  */
+/*Jenn Stuart
+   HW 5 Trivia Game 
+   UTexas PTF Coding 2019 */
 
+body{
+      color: yellow;
+      font-family: 'Vollkorn', serif;
+   }
+p {
+   font-size: 170%;
+}
+h1 {
+   font-size: 350%;
+}
+/* Classes *
