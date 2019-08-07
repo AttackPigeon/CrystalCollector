@@ -13,21 +13,21 @@
     <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-info">
+<body>
     <div class="container">
         <div class="row">
-            <div class="col-12 bg-info text-center">
-                <h1 class= "bolder">Jenn's Crystal Collector Adventure</h1>
+            <div class="col-12 text-center">
+                <h1 class= "bolder">Crystal Collector</h1>
                 <p> 
                      Click on the crystals below until you
-                    <br>Match the Magic Number with your number... 
-                    <br> BUT do not go over the magic number- 
-                    <br>or no cookies for you! 
+                    <br>Match the "Magic Number" with "Your Number"... 
+                    <br> BUT don't go over the Magic Number- 
+                    <br>or you LOSE! 
                 </p>
                 <h1> Your Number: <span id= "myNumber"></span> </h1>
             </div>
         </div>
-        <div class="crystals text-center">
+        <div class="text-center" id="crystals">
             <img src="assets/images/blue.png" id='blue'>
             <img src="assets/images/green.png" id='green'>
             <img src="assets/images/red.png" id='red'>
@@ -35,9 +35,10 @@
         </div>
         <div class="scores">
             <h3>Magic Number: <span id="targetNumber"></span></h3>
-            <h3>Cookies(wins): <span id= "wins"></span></h3>
+            <h3> Wins: <span id= "wins"></span></h3>
             <h3>Losses:<span id= "losses"></span></h3>
-         
+        </div>
+    </div>
         </div>
     </div>
     <script src="./assets/javaScript/game.js" type="text/javascript" ></script>

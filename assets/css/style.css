@@ -3,8 +3,8 @@
    UTexas PTF Coding 2019 */
 
 body{
-      color: yellow;
       font-family: 'Vollkorn', serif;
+      background-image: url("assets/images/background.jpg")
    }
 p {
    font-size: 170%;
@@ -13,3 +13,31 @@ h1 {
    font-size: 350%;
 }
 /* Classes *
+/* ID's */
+#red{
+
+}
+#green{
+
+}
+#yellow{
+
+}
+#blue{
+
+}
+#myNumber{
+
+}
+#crystals{
+   
+}
+#targetNumber{
+
+}
+#wins{
+
+}
+#losses{
+
+}

@@ -36,12 +36,12 @@ function calcWins() {
     if (myNumber===targetNumber) {
         wins++,
         $('#wins').text(wins)
-        alert('You won! Good job!...Cookie?')
+        alert('You won! Good job!')
         init()
     }else if(myNumber>targetNumber) {
         losses++,
         $("#losses").text(losses)
-        alert("You lost, no cookies!")
+        alert("You lost! Try again!")
         init()
     }
 }
