@@ -26,6 +26,9 @@ h1 {
 }
 
 /* ID's */
+#yourNumber{
+   border-bottom: rgba(255, 255, 255, 0.808) dotted 3px;
+}
 #red{
    margin-right: 6%;
 }
@@ -42,6 +45,7 @@ h1 {
    color: white;
 }
 #crystals{
+   border: yellow dashed 3px;
    margin-top:2%;
    margin-bottom: 2%; 
 }
