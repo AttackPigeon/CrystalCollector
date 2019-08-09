@@ -3,50 +3,65 @@
    UTexas PTF Coding 2019 */
 
 body{
-   font-family: 'Liu Jian Mao Cao', cursive;
-   background: rgb(155, 194, 16);
-   color: maroon;
+   background-image: url("../images/background/background_img.jpg");
+   font-family: 'Permanent Marker', cursive;
+   /* background-image: url("/assets/images/background/background_img.jpg"); */
+   color: #a3d8db;
    }
 p {
-   font-size: 170%;
+   font-size: 140%;
 }
 h1 {
-   font-size: 350%;
+   font-size: 300%;
 }
 /* Classes */
-.container  {
-   background:rgb(63, 114, 129);
+.container {
+   background: rgba(128, 0, 0, 0.842);
+}
+.text-left{
+   margin-left: 4%;
 }
 
 /* ID's */
 #red{
+   margin-right: 6%;
 
 }
 #green{
+   margin-right: 6%;
 
 }
 #yellow{
 
 }
 #blue{
-
+margin-right: 6%;
 }
 #myNumber{
+font-size: 89%;
+   color: whitesmoke;
 
 }
 #crystals{
+margin-top:2%;
+margin-bottom: 2%;
    
 }
-#magicNumer{
-   font-size: 190%;
-}
+/* #magicNumber{
+   font-size: 210%; */
+   
+  
+/* } */
 #targetNumber{
-   font-size: 190%;
-
+   font-size: 89%;
+   color: whitesmoke;
+   text-align: center;
 }
 #wins{
+   margin-left: 2%;
 
 }
 #losses{
+   margin-left: 2%;
 
 }
