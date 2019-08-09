@@ -5,9 +5,8 @@
 body{
    background-image: url("../images/background/background_img.jpg");
    font-family: "Quicksand", Arial, sans-serif;
-   /* background-image: url("/assets/images/background/background_img.jpg"); */
    color: #a3d8db;
-   }
+}
 p {
    margin-top: 3%;
    color: yellow;
@@ -17,6 +16,7 @@ h1 {
    margin-top:2%;
    font-size: 300%;
 }
+
 /* Classes */
 .container {
    background: rgba(128, 0, 0, 0.842);
@@ -28,47 +28,35 @@ h1 {
 /* ID's */
 #red{
    margin-right: 6%;
-
 }
 #green{
    margin-right: 6%;
-
-}
-#yellow{
-
 }
 #blue{
-margin-right: 6%;
+   margin-right: 6%;
 }
 #myNumber{
-padding: 0 2% 0 2%;
-border: yellow solid 3px;
-font-size: 89%;
-color: whitesmoke;
-
+   padding: 0 2% 0 2%;
+   border: yellow solid 3px;
+   font-size: 89%;
+   color: white;
 }
 #crystals{
-margin-top:2%;
-margin-bottom: 2%;
-   
+   margin-top:2%;
+   margin-bottom: 2%; 
 }
-/* #magicNumber{
-   font-size: 210%; */
-   
-  
-/* } */
 #targetNumber{
-padding: 0 2% 0 2%;
-border: yellow solid 3px;
-font-size: 89%;
-color: whitesmoke;
-text-align: center;
+   padding: 0 2% 0 2%;
+   border: yellow solid 3px;
+   font-size: 89%;
+   color: white;
+   text-align: center;
 }
 #wins{
-margin-left: 2%;
-
+   color:yellow;
+   margin-left: 2%;
 }
 #losses{
-margin-left: 2%;
-
+   color:yellow;
+   margin-left: 2%;
 }
