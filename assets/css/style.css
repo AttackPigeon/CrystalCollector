@@ -22,12 +22,14 @@ h1 {
    background: rgba(128, 0, 0, 0.842);
 }
 .text-left{
+   margin-top:2%;
    margin-left: 4%;
 }
 
 /* ID's */
 #yourNumber{
    border-bottom: rgba(255, 255, 255, 0.808) dotted 3px;
+   padding-bottom: 2%;
 }
 #red{
    margin-right: 6%;
@@ -43,6 +45,10 @@ h1 {
    border: yellow solid 3px;
    font-size: 89%;
    color: white;
+}
+#magicNumber{
+   border-top: rgba(255, 255, 255, 0.808) dotted 3px;
+   padding-top: 2%;
 }
 #crystals{
    border: yellow dashed 3px;
