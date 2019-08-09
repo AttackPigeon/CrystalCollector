@@ -4,6 +4,10 @@
 
 body{
    background-image: url("../images/background/background_img.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
    font-family: "Quicksand", Arial, sans-serif;
    color: #a3d8db;
 }
